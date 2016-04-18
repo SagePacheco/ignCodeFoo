@@ -2,7 +2,7 @@
 IGN Code Foo 2016
 
 1. Short video about me:
-
+Youtube: https://youtu.be/s4SeDUFwviI
 
 2. Golden Gate bridge problem:
 
