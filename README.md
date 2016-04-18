@@ -1,7 +1,7 @@
 # ignCodeFoo
 IGN Code Foo 2016
 
-Short video about me:  
+Short intro video:  
 Youtube: https://youtu.be/s4SeDUFwviI
 
 Golden Gate bridge problem:  
