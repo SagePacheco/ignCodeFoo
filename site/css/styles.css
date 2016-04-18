@@ -1,0 +1,194 @@
+* {
+	padding:0;
+	border:0;
+	margin:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+html, body{
+	position:relative;
+	width:100%;
+	background-color:black;
+	padding:5px;
+}
+
+body{
+}
+
+#content{
+	position:relative;
+	border-radius:5px;
+	overflow:hidden;
+}
+
+nav{
+	width:75%;
+	height:50px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
+
+nav a{
+	color: #d3222a;
+}
+
+nav a:hover{
+	color: #d3222a;
+}
+
+nav a:visited{
+	color: #d3222a;
+}
+
+.chosen{
+	background-color:#d3222a;
+	color:white;	
+}
+
+.chosen:hover {
+	color:white;	
+}
+
+.chosen:visited {
+	color:white;	
+}
+
+#artBtn, #vidBtn{
+	text-align: center;
+	border:2px #d3222a solid;
+	width:50%;
+	height:100%;
+	padding-top: 15px;
+}
+
+#artBtn{
+	position:absolute;
+	border-radius: 30px 0 0 30px;
+}
+#vidBtn{
+	position:absolute;
+	border-radius: 0 30px 30px 0;
+	right: 0;
+}
+
+#navBlock{
+	min-height: 75px;
+	position:relative;
+	display:block;
+	border-bottom:thin grey solid;
+	font-weight:bold;
+	overflow:hidden;	
+}
+
+.ignLink{
+	min-height: 75px;
+	position:relative;
+	display:block;
+	border-bottom:thin grey solid;
+	font-weight:bold;
+	overflow:hidden;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+}
+
+.ignLink:hover{
+	color:white;
+ }
+ 
+ #redBlock{
+	 position:absolute;
+	 top:10px;
+	 height:50px;
+	 width:10px;
+	 background-color:#d3222a;
+ }
+ 
+ .fg, .bg{
+	position:absolute;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+ }
+ 
+ .fg{
+	background-color:rgba(255,255,255,1);
+	width:100%;
+	height:100%;	 
+ }
+ 
+ .bg{
+	width:150%;
+	height:150%;
+	left:-25%;
+	top:-25%;
+	background-position:50% 50%;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+ }
+
+.ignLink:hover .fg{
+	background-color:rgba(0,0,0,.4);
+}
+
+.ignLink:hover .bg{
+	-moz-transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-ms-transform: scale(.75);
+	transform: scale(.75);
+}
+
+.ignLink:hover .count, .ignLink:hover .title{
+	color:white;	
+}
+
+.count, .titleBlock, .duration{
+	padding-top:10px;
+	margin:0;
+	min-height:75px;
+	overflow:hidden;
+}
+
+.title{
+	color:black;	
+}
+.count{
+	text-align:center;
+	color:black;
+}
+.description{
+	color:grey;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	display:block;
+}
+.duration{
+	text-align:right;
+	color:grey;
+}
+#seeMoreCon{
+	padding: 10px 0 10px 0;
+	background-color:white;
+}
+
+#seeMore{
+	color:grey;
+	font-size:12px;
+}
+
+#loaderCon{position:relative;}
+#loader{
+	position:relative;
+	left:50%;
+	transform: translate(-50%);
+}
