@@ -8,6 +8,7 @@ $(document).ready(function() {
 	"use strict";
 	callArticles(pullType, startIndex);
 	startIndex += 10;
+	console.log("Ready");
 });
 
 $("#seeMore").on('click', function(e){
@@ -27,9 +28,9 @@ $("#vidBtn").on('click', function(e){
 	$(this).toggleClass('chosen');
 	$('#artBtn').toggleClass('chosen');
 	pullType = 'videos';
-	startIndex = 1;
 	$('.ignLink').remove();
-	callArticles(pullType, startIndex);
+	callArticles(pullType, 1);
+	startIndex = 11;
 });
 
 $("#artBtn").on('click', function(e){
@@ -40,7 +41,8 @@ $("#artBtn").on('click', function(e){
 	pullType = 'articles';
 	startIndex = 1;
 	$('.ignLink').remove();
-	callArticles(pullType, startIndex);
+	callArticles(pullType, 1);
+	startIndex = 11;
 });
 
 function callArticles(pullType, startIndex){
