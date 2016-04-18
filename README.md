@@ -12,17 +12,16 @@ IGN Code Foo 2016
 Live version: http://sageweb.design/ignCodeFoo/scrabble/
 Repository Location: scrabble/
 
-4.
-  Back End:
-    a.
-    Live version: http://sageweb.design/ignCodeFoo/backEnd/alienKeyboard/
-    Repository Location: backEnd/alienKeyboard/
-    
-    b.
-    Live Version: http://sageweb.design/ignCodeFoo/backEnd/timeLib/
-    Repository Location: backEnd/atimeLib/
+Back End:
+  a.
+  Live version: http://sageweb.design/ignCodeFoo/backEnd/alienKeyboard/
+  Repository Location: backEnd/alienKeyboard/
   
-  Front End:
-    a / b
-      Live version: http://sageweb.design/ignCodeFoo/frontEnd/
-      Repository Location: frontEnd/
+  b.
+  Live Version: http://sageweb.design/ignCodeFoo/backEnd/timeLib/
+  Repository Location: backEnd/atimeLib/
+
+Front End:
+  a / b
+    Live version: http://sageweb.design/ignCodeFoo/frontEnd/
+    Repository Location: frontEnd/
