@@ -216,7 +216,7 @@ class ignTime{
 		}
 	} else {unset($this->gmtOffset);}
 
-	$this->iso = $localISO;
+	$this->iso = trim($localISO, '-');
 	}
 
 	public function getISO(){
