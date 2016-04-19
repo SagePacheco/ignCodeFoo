@@ -1,10 +1,10 @@
 # ignCodeFoo
 IGN Code Foo 2016
 
-Short intro video:  
+## Short intro video:  
 Youtube: https://youtu.be/s4SeDUFwviI
 
-Golden Gate bridge problem:  
+## Golden Gate bridge problem:  
 How many Legos would it take to rebuild the Golden Gate Bridge?
 Assuming that I have modern technology at my disposal… I would use the internet to see if anyone else has tackled this problem. Seeking inspiration would speed up the process rather than reinventing the wheel. Not much was found in this area, so I moved on with my own thought process.  
 
@@ -22,11 +22,11 @@ Step 3:	Final Calculations:
 Based on public data, assumptions, and standardization of units. We have a bridge with a material volume of 9.591x109 cm3. Dividing that material volume by the volume of a single 2 x 4 Lego brick results in 1,951,293,940.
 Thus my total rough estimate is 1,951,293,940 Lego Bricks.  
 
-Scrabble Challenge:  
+## Scrabble Challenge:  
 Live version: http://sageweb.design/ignCodeFoo/scrabble/  
 Repository Location: scrabble/  
 
-Back End:  
+## Back End:  
 
 Alien Keyboard:  
 Live version: http://sageweb.design/ignCodeFoo/backEnd/alienKeyboard/  
@@ -36,7 +36,7 @@ Time Library
 Live Version: http://sageweb.design/ignCodeFoo/backEnd/timeLib/  
 Repository Location: backEnd/timeLib/  
 
-Front End:
+## Front End:
 
 IGN Articles / Videos  
 Live version: http://sageweb.design/ignCodeFoo/frontEnd/  
